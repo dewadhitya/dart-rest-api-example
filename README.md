@@ -9,17 +9,13 @@ $ dart run bin/server.dart
 Server listening on port 8080
 ```
 
-Or also you can try the demo!
-Url: `https://dart-rest-api-example.herokuapp.com`
+Or also you can try the demo! | Url: `https://dart-rest-api-example.herokuapp.com`
 
 ### Get Data
-Endpoint: `"/get"`
-Method: `GET`
+Endpoint: `"/get"` | Method: `GET`
 
 ### Add New Data
-Endpoint: `"/add"`
-Method: `POST`
-Body:
+Endpoint: `"/add"` | Method: `POST` | Body:
 ```
 {
   "name": "John Doe",
@@ -28,9 +24,7 @@ Body:
 ```
 
 ### Update Data
-Endpoint: `"/update/<id>"`
-Method: `PATCH`
-Body:
+Endpoint: `"/update/<id>"` | Method: `PATCH` | Body:
 ```
 {
   "name": "John Doe",
@@ -39,5 +33,4 @@ Body:
 ```
 
 ### Delete Data
-Endpoint: `"/delete/<id>"`
-Method: `DELETE`
+Endpoint: `"/delete/<id>"` | Method: `DELETE`
