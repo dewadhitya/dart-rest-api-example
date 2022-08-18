@@ -65,8 +65,8 @@ class AppHandler {
   }
 
   Future<Response> deleteDataHandler(Request request) async {
-    final id = request.params['id'];
-    final payload = jsonDecode(await request.readAsString());
+    // final id = request.params['id'];
+    // final payload = jsonDecode(await request.readAsString());
 
     return Response(200);
   }
